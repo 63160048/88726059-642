@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORM RESERVE</title>
+</head>
+<body>
+    <form action="https://angsila.cs.buu.ac.th/~wittawas/642/88726059/services/post.php" method="post">
+        <label for="roomtype">Room Type</label>
+        <select name="roomtype" id="" style="width: 500px;">
+            <option value="0">Please Select</option>
+            <option value="Standard">Standard</option>
+            <option value="Luxury">Luxury</option>
+            <option value="Deluxe">Deluxe</option>
+        </select>
+        <br><br>
+        <label for="numguest">Number of Guests</label>
+        <select name="numguest" id="" style="width: 500px;">
+            <option value="1">Please Select</option>
+            <option value="1-2">1-2</option>
+            <option value="3-4">3-4</option>
+            <option value="5-6">5-6</option>
+            <option value="7-8">7-8</option>
+        </select>
+        <br><br>
+        <label for="fname">Name</label>
+        <input type="text" name="fname" id="fname">
+        <input type="text" name="lname" id="lname">
+        <br><br>
+        <label for="email">Email</label>
+        <input type="email" name="email" id="">
+        <br><br>
+        <label for="date">Arrival</label>
+        <input type="date" name="arrivaldate" id="">
+        <input type="time" name="arrivaltime" id="">
+        <br><br>
+        <label for="date">Departure</label>
+        <input type="date" name="departuredate" id="">
+        <input type="time" name="departuretime" id="">
+        <br><br>
+        <label for="pickup">Free Pickup</label>
+        <input type="checkbox" name="pickup" id="" value="Yes">Yes, sure!
+        <!-- <br> -->
+        <input type="checkbox" name="pickup" id="" value="No">No, I already rented a car.
+        <br><br>
+        <label for="flightnum">Flight Number</label>
+        <input type="text" name="flightnum">
+        <br><br>
+        <label for="otherreq">Other requests</label>
+        <input type="text" name="otherreq" id="">
+        <br><br>
+        <input type="submit" value="Complete Reservation" style="padding: .5em 1em; color: white; background: rgb(80, 80, 80);">
+    </form>
+</body>
+</html>
