@@ -31,6 +31,20 @@ section {
     padding: 5em 0;
 }
 
+section a {
+    font-size: 2rem;
+    text-transform: uppercase;
+    color: #FFF;
+    text-decoration: none;
+    margin-top: 5em;
+    display: block;
+}
+
+section a:hover {
+    color: black;
+    transition: .5s;
+}
+
 section p { 
     margin-bottom: 5em;
     font-size: 1.5rem;
