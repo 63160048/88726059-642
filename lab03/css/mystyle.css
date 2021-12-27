@@ -53,8 +53,27 @@ section p {
     text-transform: uppercase;
 }
 
+footer {
+    padding: 1em 0;
+    background: black;
+    text-align: center;
+}
+
+footer a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    margin-right: 1em;
+    text-transform: uppercase;
+}
 @media(min-width:800px) {
     .col {
         display: flex;
+    }
+    footer {
+        display: flex;
+        padding: 1em 0;
+        background: black;
+        justify-content: center;
     }
 }
