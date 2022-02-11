@@ -80,6 +80,7 @@ footer a {
     margin-right: 1em;
     text-transform: uppercase;
 }
+
 @media(min-width:800px) {
     .col {
         display: flex;
